@@ -1,0 +1,113 @@
+html, 
+body {
+background-color: #222321;
+font-size: 15px;
+    color: #d9d9d9;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'open_sansregular', sans-serif;
+    font-weight: 300;
+
+}
+
+.heading {
+	font-size: 4rem;
+	padding: 20px;
+	margin-top: 5%;
+}
+
+hr {
+	border: 1px solid #B73737;
+	/*color: #B73737;*/
+}
+
+.brain {
+	max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red{
+     color: red;
+}
+
+section{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#B73737 ;
+}
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        .heading{
+        	color:red;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    	.heading{
+        	color:blue;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    	.heading{
+        	color:#000;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    	.heading{
+        	color:green;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    	.heading{
+        	color:#FFF;
+        }
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
