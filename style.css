@@ -24,9 +24,11 @@ hr {
 }
 
 .brain {
-	max-width: 800px;
+	max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    margin-top: -5%;
 }
 
 .red{
@@ -34,11 +36,11 @@ hr {
 }
 
 section{
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto 0 auto;
     margin-top: -10%;
     color:#B73737;
-    padding: 20px;
+    padding: 40px;
 }
 
 h2{
@@ -47,7 +49,7 @@ h2{
 }
 
 .box{
-  background:white;
+  background:#e6e6e6;
   width:300px;
   border-radius:6px;
  padding:10px 20px 20px 10px;
@@ -86,7 +88,7 @@ h2{
   padding-bottom:5px;
   color:white;
   border-radius:4px;
-  border: #B73737 1px solid;
+  /*border: #B73737 1px solid;*/
   
   margin-top:20px;
   margin-bottom:20px;
@@ -108,7 +110,7 @@ h2{
   padding-bottom:5px;
   color:white;
   border-radius:4px;
-  border: #2980b9 1px solid;
+  /*border: #2980b9 1px solid;*/
   
   margin-top:20px;
   margin-bottom:20px;
@@ -128,13 +130,20 @@ p{
 }
 
 .box2 { 
-  background:white;
+  background:#e6e6e6;
   width:300px;
   border-radius:6px;
- padding:10px 20px 20px 10px;
+  padding:10px 20px 20px 10px;
   border: #8c8c8c 4px solid; 
   float: right;
   margin-right: 20%;
+   }
+
+.box2 h3 {
+    color: white;
+}
+   .panel-footer {
+    margin-top: 30%;
    }
 /*==================================================
 =            Bootstrap 3 Media Queries             =
