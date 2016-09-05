@@ -446,6 +446,7 @@ p{
 width: 4%;
 margin-top: -2%;
 z-index: 100;
+max-width: 6%;
 }
 
 /* === PURCHASED EMOTIONS === */
