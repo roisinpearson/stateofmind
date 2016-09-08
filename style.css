@@ -494,7 +494,7 @@ p{
     background-color: #9BCECA;
     margin-right: 5%;
     transition: .5s;
-    font-family: Norpeth;
+        font-family: 'open_sansregular', sans-serif;
     z-index: 1000;
     
 }
@@ -517,7 +517,7 @@ p{
     background-color: #B73737;
     margin-left: 2%;
     transition: .5s;
-    font-family: Norpeth;
+        font-family: 'open_sansregular', sans-serif;
     
 }
 
@@ -539,7 +539,7 @@ p{
     background-color: #B73737;
     margin-left: -1%;
     transition: .5s;
-    font-family: Norpeth;
+        font-family: 'open_sansregular', sans-serif;
     
 }
 
@@ -613,7 +613,7 @@ margin-left: 47%;
     background-color: #9BCECA;
     margin-right: 5%;
     transition: .5s;
-    font-family: Norpeth;
+        font-family: 'open_sansregular', sans-serif;
 }
 .btn-default:hover {
 background-color: #396576;
@@ -642,7 +642,7 @@ background-color: #9BCECA;
     background-color: #9BCECA;
     margin-right: 5%;
     transition: .5s;
-    font-family: Norpeth;
+        font-family: 'open_sansregular', sans-serif;
 }
 
 .btn-primary.buy:hover {
@@ -764,7 +764,7 @@ margin-top: -4%;
 
 .ui-content label {
   font-size: 1.5rem;
-  font-family: Norpeth;
+      font-family: 'open_sansregular', sans-serif;
   color: #fff;
   margin-left: 10%;
 }
@@ -786,7 +786,7 @@ padding-top: 14px;
 .contents ul{
   margin-top: 8%;
   list-style-type: none;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
 
 }
 
@@ -804,7 +804,7 @@ input#mytext {
 }
 
 .focus p {
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   font-size: 1.5rem;
 
 }
@@ -818,7 +818,7 @@ margin-top: 3%;
   width: 79%;
   padding: 20px;
   margin-left: 0%;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   font-size: 1.3rem;
   background-color: #737373;
   padding-left: 50px;
@@ -841,14 +841,14 @@ color: #fff;
   padding: 20px;
   margin-left: 5%;
   color: #222321;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   font-weight: 300;
 
 }
 
 .red p {
   margin-top: 50px;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   font-size: 1rem;
 }
 
@@ -957,7 +957,7 @@ color: #fff;
 .categories h1 {
    padding: 20px;
   color: #4d4d4d;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   font-weight: 300;
   font-size: 3rem;
 }
@@ -1063,7 +1063,7 @@ color: #fff;
 {   
   margin-top: 5%;
   font-weight: 200;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
 }
 
 .contain {
@@ -1213,7 +1213,7 @@ h3.cardTitle {
   line-height: 1.2em;
   margin-top: 18%;
   font-weight: 400;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
 }
 .content h3.cardTitle
 {
@@ -1225,7 +1225,7 @@ h3.cardTitle {
   font-weight: 100;
   text-align: left;
   font-weight: bold;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
 }
 
 @media all and (max-width: 1000px){
@@ -1237,7 +1237,7 @@ h3.cardTitle {
   {
     margin-top: -15%;
     line-height: 1.2em;
-    font-family: Norpeth;
+     font-family: 'open_sansregular', sans-serif;
   }
   
   .card
@@ -1281,13 +1281,13 @@ h3.cardTitle {
   h3.cardTitle
   {
    font-weight: 500; 
-   font-family: Norpeth;    
+    font-family: 'open_sansregular', sans-serif;   
   }
   .content p
   {
     margin-top: -20%;
     line-height: 1.2em;
-    font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   }
   .cardWrapper
   {
@@ -1305,7 +1305,7 @@ h3.cardTitle {
 }
 
 .purchase h1 {
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   font-size: 3rem;
   padding: 5%;
   /*margin-right: 20%;*/
@@ -1342,7 +1342,7 @@ h3.cardTitle {
 
 .again {
   color: #B73737;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
 }
 
 .again h1 {
@@ -1470,7 +1470,7 @@ h3.cardTitle {
     background-color: #9BCECA;
     margin-right: 5%;
     transition: .5s;
-    font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
     
 }
 
@@ -1511,7 +1511,7 @@ h3.cardTitle {
 
 .group p {
   font-size: 1rem;
-  font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
   padding-left: 10px;
 }
 
@@ -1538,7 +1538,7 @@ width: 100%;
 .last p {
   color: #222321;
   padding-top: 2%;
-   font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
    font-size: 0.9rem;
 }
 
@@ -1596,7 +1596,7 @@ color:#9BCECA ;
     color:#222321 ;
     margin-left: 0%;
     font-size: 1rem;
-    font-family: Norpeth;
+    font-family: 'open_sansregular', sans-serif;
 }
 
 
