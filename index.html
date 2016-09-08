@@ -10,7 +10,7 @@
 
 
 <head> 
-
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
 
 	<h1 class="heading text-center">STATE OF MIND</h1>
 
@@ -42,13 +42,40 @@
 <div class="box">
 <h2>Welcome Back</h2>
 
-<input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
-  
-<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
-  
-  <form action="homepage.html">
-    <input type="submit" value="Log In" class="btn"/>
+<form name="login" id="form_id">
+Username<input type="email" name="userid" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+Password<input type="password" name="pswrd" onFocus="field_focus(this, 'password');" onblur="field_blur(this, 'password');" class="password" />
+<input type="button" class="btn" onclick="check(this.form)" value="Login"/>
+<!-- <input type="reset" value="Cancel" class="btn"/> -->
 </form>
+<script language="javascript">
+function check(form)/*function to check userid & password*/
+{
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "roisin.pearson@gmail.com" && form.pswrd.value == "12345")
+  {
+    window.open('homepage.html')/*opens the target page while Id & password matches*/
+  }
+ else
+ {
+   alert("Error Password or Username")/*displays error message*/
+  }
+}
+</script>
+
+<!-- <form id="form_id" method="post" name="myform">
+
+<input type="email" name="email" value="email" id="username" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+  
+<input type="password" name="password" value="password" id="password" onFocus="field_focus(this, 'password');" onblur="field_blur(this, 'password');" class="password" /> -->
+
+  
+<!--     <input type="submit" class="btn" value="Login" id="submit" onclick="validate()"/>
+
+</form> -->
+
+
+
 
 <!-- <a href="http://google.com" class="btn">Log In</a> -->
 
@@ -71,7 +98,7 @@
 
   <div class="button">
   <form action="signup.html">
-    <input type="submit" value="Sign Up" class="btn"/>
+    <input type="submit" value="Sign Up" class="btn submit"/>
 </form>
 </div>
 

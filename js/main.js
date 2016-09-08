@@ -1,41 +1,8 @@
-function field_focus(field, email)
-  {
-    if(field.value == email)
-    {
-      field.value = '';
-    }
-  }
-
-  function field_blur(field, email)
-  {
-    if(field.value == '')
-    {
-      field.value = email;
-    }
-  }
-
-//Fade in dashboard box
-$(document).ready(function(){
-    $('.box').hide().fadeIn(1000);
-    });
-
-//Stop click event
-$('a').click(function(event){
-    event.preventDefault(); 
-	});
-
-
-
-  // $(document).ready(function(){
-    // set up hover panels
-    // although this can be done without JavaScript, we've attached these events
-    // because it causes the hover to be triggered when the element is tapped on a touch device
- 
-        $('.card').click(function(){
+  $('.card').click(function(){
           $(this).toggleClass('flipped');
         });
 
-        // SLICKNAV //
+
 
 
 jQuery(window).scroll(function () {
@@ -50,21 +17,9 @@ jQuery(window).scroll(function () {
         }
     });
 
-// scroll Up
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 600) {
-            $('.scrollup').fadeIn('slow');
-        } else {
-            $('.scrollup').fadeOut('slow');
-        }
-    });
-    $('.scrollup').click(function () {
-        $("html, body").animate({scrollTop: 0}, 1000);
-        return false;
-    });
 
-// ANIMATED BACKGROUND //
+
 
 (function() {
 
@@ -254,27 +209,7 @@ jQuery(window).scroll(function () {
 
 jQuery(document).ready(function() {
     
-    /*
-        Login form validation
-    */
-    // $('.login-form input[type="text"], .login-form input[type="password"], .login-form textarea').on('focus', function() {
-    //   $(this).removeClass('input-error');
-    // });
-    
-    // $('.login-form').on('submit', function(e) {
-      
-    //   $(this).find('input[type="text"], input[type="password"], textarea').each(function(){
-    //     if( $(this).val() == "" ) {
-    //       e.preventDefault();
-    //       $(this).addClass('input-error');
-    //     }
-    //     else {
-    //       $(this).removeClass('input-error');
-    //     }
-    //   });
-      
-    // });
-    
+ 
     /*
         Registration form validation
     */
@@ -298,6 +233,76 @@ jQuery(document).ready(function() {
     
     
 });
+
+
+
+
+function field_focus(field, email)
+  {
+    if(field.value == email)
+    {
+      field.value = '';
+    }
+  }
+
+  function field_blur(field, email)
+  {
+    if(field.value == '')
+    {
+      field.value = email;
+    }
+  }
+
+//Fade in dashboard box
+$(document).ready(function(){
+    $('.box').hide().fadeIn(1000);
+    });
+
+//Stop click event
+$('a').click(function(event){
+    event.preventDefault(); 
+	});
+
+
+
+  // $(document).ready(function(){
+    // set up hover panels
+    // although this can be done without JavaScript, we've attached these events
+    // because it causes the hover to be triggered when the element is tapped on a touch device
+ 
+      
+
+        // SLICKNAV //
+
+
+
+
+document.getElementById("homepage").onclick = function () {
+    location.href = "homepage.html";
+};
+
+document.getElementById("buy").onclick = function () {
+    location.href = "buy.html";
+};
+
+document.getElementById("previous").onclick = function () {
+    location.href = "previous.html";
+};
+// scroll Up
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 600) {
+            $('.scrollup').fadeIn('slow');
+        } else {
+            $('.scrollup').fadeOut('slow');
+        }
+    });
+    $('.scrollup').click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+        return false;
+    });
+
+// ANIMATED BACKGROUND //
 
 
 
